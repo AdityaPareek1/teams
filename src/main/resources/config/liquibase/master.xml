@@ -14,12 +14,13 @@
     <property name="uuidType" value="uuid" dbms="h2, postgresql"/>
 
       <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20211125182038_added_entity_TaxService.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20211125182039_added_entity_TaxServiceActivity.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20211125182040_added_entity_Customer.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20211125182041_added_entity_CustomerProfile.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20211125182042_added_entity_CustomerQuery.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/20211125182043_added_entity_CustomerQueryActivity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126165151_added_entity_TaxService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126165152_added_entity_TaxServiceActivity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126165153_added_entity_Customer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126165154_added_entity_CustomerProfile.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126165155_added_entity_CustomerQuery.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126165156_added_entity_CustomerQueryActivity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126165157_added_entity_Developers.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     
 </databaseChangeLog>

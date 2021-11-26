@@ -63,5 +63,5 @@
   "microserviceName": "taxfileservice",
   "clientRootFolder": "taxfileservice",
   "databaseType": "sql",
-  "changelogDate": "20211125182043"
+  "changelogDate": "20211126165156"
 }

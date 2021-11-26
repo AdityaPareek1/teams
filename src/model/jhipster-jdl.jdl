@@ -80,3 +80,31 @@ entity CustomerQueryActivity {
     updatedBy String
     customerQueryId Long
 }
+
+entity Developers {
+	firstName String
+	lastName String
+	email String
+	password String
+	username String
+	skills String
+	language String
+	profileUrl String
+	oneLineDescription String
+	describeYourself String
+	speakLanguage String
+	born LocalDate
+	address String
+	city String 
+	state String
+	zipPostCode String
+	country String
+	expriace String 
+	workType String
+	createdOn Instant
+	createdBy String
+	updatedOn Instant
+	updatedBy String
+	status String
+
+}
