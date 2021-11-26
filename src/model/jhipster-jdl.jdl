@@ -108,3 +108,16 @@ entity Developers {
 	status String
 
 }
+entity Companies {
+	name String
+    email String
+	domainName String
+    ownerName String
+    message String
+	workLanguage String
+    status String
+    createdOn Instant
+    createdBy String
+    updatedOn Instant
+    updatedBy String
+}

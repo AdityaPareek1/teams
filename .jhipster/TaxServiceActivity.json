@@ -60,7 +60,7 @@
   "readOnly": false,
   "embedded": false,
   "applications": "*",
-  "microserviceName": "taxfileservice",
+  "microserviceName": "finditteams",
   "clientRootFolder": "taxfileservice",
   "databaseType": "sql",
   "changelogDate": "20211126165152"

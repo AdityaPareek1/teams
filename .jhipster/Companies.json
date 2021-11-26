@@ -1,8 +1,8 @@
 {
-  "name": "CustomerQueryActivity",
+  "name": "Companies",
   "fields": [
     {
-      "fieldName": "phoneNumber",
+      "fieldName": "name",
       "fieldType": "String"
     },
     {
@@ -10,11 +10,11 @@
       "fieldType": "String"
     },
     {
-      "fieldName": "category",
+      "fieldName": "domainName",
       "fieldType": "String"
     },
     {
-      "fieldName": "serviceType",
+      "fieldName": "ownerName",
       "fieldType": "String"
     },
     {
@@ -22,7 +22,7 @@
       "fieldType": "String"
     },
     {
-      "fieldName": "comments",
+      "fieldName": "workLanguage",
       "fieldType": "String"
     },
     {
@@ -44,14 +44,10 @@
     {
       "fieldName": "updatedBy",
       "fieldType": "String"
-    },
-    {
-      "fieldName": "customerQueryId",
-      "fieldType": "Long"
     }
   ],
   "relationships": [],
-  "entityTableName": "customer_query_activity",
+  "entityTableName": "companies",
   "dto": "no",
   "pagination": "no",
   "service": "no",
@@ -61,7 +57,7 @@
   "embedded": false,
   "applications": "*",
   "microserviceName": "finditteams",
-  "clientRootFolder": "taxfileservice",
+  "clientRootFolder": "finditteams",
   "databaseType": "sql",
-  "changelogDate": "20211126165156"
+  "changelogDate": "20211126191555"
 }

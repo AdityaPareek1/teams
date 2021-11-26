@@ -1,9 +1,8 @@
 package com.findit.teams.repository;
 
+import com.findit.teams.domain.TaxServiceActivity;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.stereotype.Repository;
-
-import com.findit.teams.domain.TaxServiceActivity;
 
 /**
  * Spring Data SQL repository for the TaxServiceActivity entity.

@@ -21,6 +21,7 @@
     <include file="config/liquibase/changelog/20211126165155_added_entity_CustomerQuery.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20211126165156_added_entity_CustomerQueryActivity.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20211126165157_added_entity_Developers.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126191555_added_entity_Companies.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     
 </databaseChangeLog>

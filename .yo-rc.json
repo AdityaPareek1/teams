@@ -3,7 +3,7 @@
     "blueprints": [],
     "otherModules": [],
     "applicationType": "microservice",
-    "baseName": "taxfileservice",
+    "baseName": "finditteams",
     "jhipsterVersion": "7.0.0",
     "skipClient": true,
     "skipUserManagement": true,
@@ -34,10 +34,19 @@
     "enableSwaggerCodegen": false,
     "enableTranslation": false,
     "nativeLanguage": "en",
-    "packageFolder": "com/meteor/taxfile",
+    "packageFolder": "com/findit/teams",
     "jwtSecretKey": "Y2ZkY2U5N2JmYzM2YjAyZmRkNDdkYjhjNDdhZjhhZGM2YTk0YWRiNWM0NTBiNTJkMTU3ZDBkYjUyZjQ0MTFiOGFlMDliZGZmMTI3Y2Y4Njc2YWViNmE3MWVlY2JkYzEwMmMwYTYxMGE5OWJkNzAyNTdkMTdmOTM5NjY2YTBhMDE=",
     "languages": ["en", "fr"],
-    "entities": ["TaxService", "TaxServiceActivity", "Customer", "CustomerProfile", "CustomerQuery", "CustomerQueryActivity", "Developers"],
-    "lastLiquibaseTimestamp": 1637945517000
+    "entities": [
+      "TaxService",
+      "TaxServiceActivity",
+      "Customer",
+      "CustomerProfile",
+      "CustomerQuery",
+      "CustomerQueryActivity",
+      "Developers",
+      "Companies"
+    ],
+    "lastLiquibaseTimestamp": 1637954155000
   }
 }
