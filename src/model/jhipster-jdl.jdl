@@ -1,0 +1,82 @@
+entity TaxService {
+	name String
+    serviceUrl String
+    startDate LocalDate
+	endDate LocalDate
+    description String
+    createdOn Instant
+    createdBy String
+    updatedOn Instant
+    updatedBy String
+	status String
+    comments String
+	
+}
+
+entity TaxServiceActivity {
+	name String
+    serviceUrl String
+    startDate LocalDate
+	endDate LocalDate
+    description String
+    createdOn Instant
+    createdBy String
+    updatedOn Instant
+    updatedBy String
+	status String
+	comments String
+	taxServiceId Long
+}
+entity Customer {
+    phoneNumber String
+	pan String
+    aadhar String
+    email String
+	address String
+    password String
+    status String
+    createdOn Instant
+    createdBy String
+    updatedOn Instant
+    updatedBy String
+}
+entity CustomerProfile {
+	firstName String
+    middleName String
+    lastName String
+    url String
+    aadhar String
+    address String
+    status String
+    createdOn Instant
+    createdBy String
+    updatedOn Instant
+    updatedBy String
+}
+entity CustomerQuery {
+	phoneNumber String
+    email String
+	category String
+    serviceType String
+    message String
+	comments String
+    status String
+    createdOn Instant
+    createdBy String
+    updatedOn Instant
+    updatedBy String
+}
+entity CustomerQueryActivity {
+	phoneNumber String
+    email String
+	category String
+    serviceType String
+    message String
+	comments String
+    status String
+    createdOn Instant
+    createdBy String
+    updatedOn Instant
+    updatedBy String
+    customerQueryId Long
+}
